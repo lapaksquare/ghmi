@@ -1,0 +1,433 @@
+/* ------------------------------------- 
+		GLOBAL 
+------------------------------------- */
+* { 
+	margin:0;
+	padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+img { 
+	max-width: 100%; 
+}
+.collapse {
+	margin:0;
+	padding:0;
+}
+body {
+	-webkit-font-smoothing:antialiased; 
+	-webkit-text-size-adjust:none; 
+	width: 100%!important; 
+	height: 100%;
+	font-family: Arial;
+}
+
+
+/* ------------------------------------- 
+		ELEMENTS 
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+	text-decoration:none;
+	color: #FFF;
+	background-color: #666;
+	padding:10px 16px;
+	font-weight:bold;
+	margin-right:10px;
+	text-align:center;
+	cursor:pointer;
+	display: inline-block;
+}
+
+p.callout {
+	padding:15px;
+	background-color:#ECF8FF;
+	margin-bottom: 15px;
+}
+.callout a {
+	font-weight:bold;
+	color: #2BA6CB;
+}
+
+table{
+	border-spacing: 0;
+}
+
+table.social {
+/* 	padding:15px; */
+	background-color: #ebebeb;
+	
+}
+.social .soc-btn {
+	padding: 3px 7px;
+	font-size:12px;
+	margin-bottom:10px;
+	text-decoration:none;
+	color: #FFF;font-weight:bold;
+	display:block;
+	text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
+
+.sidebar .soc-btn { 
+	display:block;
+	width:100%;
+}
+
+/* ------------------------------------- 
+		HEADER 
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* ------------------------------------- 
+		BODY 
+------------------------------------- */
+table.body-wrap { width: 100%;}
+
+
+/* ------------------------------------- 
+		FOOTER 
+------------------------------------- */
+table.footer-wrap { width: 100%;	clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+	font-size:10px;
+	font-weight: bold;
+	
+}
+
+
+/* ------------------------------------- 
+		TYPOGRAPHY 
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1;  color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul { 
+	font-weight: normal; 
+	font-size:14px; 
+	line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+	margin-left:5px;
+	list-style-position: inside;
+}
+
+/* ------------------------------------- 
+		SIDEBAR 
+------------------------------------- */
+ul.sidebar {
+	background:#ebebeb;
+	display:block;
+	list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+	text-decoration:none;
+	color: #666;
+	padding:10px 16px;
+/* 	font-weight:bold; */
+	margin-right:10px;
+/* 	text-align:center; */
+	cursor:pointer;
+	border-bottom: 1px solid #777777;
+	border-top: 1px solid #FFFFFF;
+	display:block;
+	margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* --------------------------------------------------- 
+		RESPONSIVENESS
+		Nuke it from orbit. It's the only way to be sure. 
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+	display:block!important;
+	max-width:600px!important;
+	margin:0 auto!important; /* makes it centered */
+	clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+	padding:0 8px 0 8px;
+	max-width:600px;
+	margin:0 auto;
+	display:block; 
+}
+.content_nopadding{
+	padding:0 !important;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+	width: 300px;
+	float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap { 
+	padding:0!important; 
+	margin:0 auto; 
+	max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+	width: 280px;
+	min-width: 279px;
+	float:left;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* ------------------------------------------- 
+		PHONE
+		For clients that support media queries.
+		Nothing fancy. 
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+	
+	a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+	div[class="column"] { width: auto!important; float:none!important;}
+	
+	table.social div[class="column"] {
+		width:auto!important;
+	}
+
+	.col_left{
+		background: none !important;
+	}
+
+}
+
+
+
+
+/* ------------------------------------------- 
+	EMAIL CUSTOM
+-------------------------------------------- */
+html{
+	background:url('../img/bg.jpg') repeat-x #2691d5;
+}
+body{
+	background:url('../img/pattern.png') repeat;
+	height:100%;
+	width:100%;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.email_banner{
+	width:100%;
+	height:281px;
+	background-repeat: no-repeat;
+}
+.email_banner ul{
+	float:right;
+	list-style:none;
+	margin-top: 1px;
+}
+.email_banner ul li{
+	display:inline-block;
+	margin-right: 12px;
+}
+.email_banner ul li a{
+	font-size:9px;
+	color:#015fa8;
+	line-height: 18px;
+}
+.header .content{
+	padding-top:15px;
+}
+.header .email_info{
+	font-size:12px;
+	color:#fff;
+	margin-bottom: 10px;
+}
+.email_info a{
+	font-weight: bold;
+	color:#fff;
+}
+.bg_content{
+	background-color:rgba(255,255,255,.25);
+}
+.body_email{
+	background-color: #fff;
+}
+.body_email p{
+	font-size:12px;
+	color:#6d6e71;
+}
+.col_left{
+	width:400px;
+	background:url('../img/sidebar.png') no-repeat top right;
+	min-height:550px;
+}
+.col_right{
+	width:180px;
+	font-size:12px;
+}
+.col_right h3{
+	color:#0460a9;
+	font-size:15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	margin-bottom: 22px;
+}
+
+.body-wrap .content_email{
+	padding-bottom:8px;
+}
+.txt_blue{
+	color:#0460a9;
+}
+
+.list_arrow{
+	margin-top:14px;
+}
+.list_arrow li, .list_news li{
+	margin-left: 0;
+	list-style: none;
+	display: block;
+}
+.list_arrow li a{
+	padding:4px 0 0 8px;
+	font-size:9px;
+	background:url('../img/arrow.png') no-repeat;
+	width:112px;
+	height:21px;
+	display: block;
+	text-transform: uppercase;
+	color:white;
+}
+.list_news{
+	margin-top: 12px;
+}
+.list_news li{
+	margin-bottom: 10px;
+}
+.list_news li a{
+	font-size:9px;
+	color:#0b7bbf;
+}
+.list_news li img{
+	margin-bottom:8px;
+	display:block;
+}
+
+.content_bottom p{
+	text-align:center;
+	color:#605b5b;
+	font-size:11px;
+	padding-bottom: 12px;
+}
+
+.table_route .cols{
+	padding:0 0 8px 0;
+	font-size:12px;
+	color:#0b7bbf;
+	border-bottom:3px solid #cdcdcd;
+}
+.table_route .cols_name{
+	font-size: 15px;
+}
+.table_route .cols_route{
+	padding:0 7px;
+}
+.table_route .cols_to_route{
+	padding-top:17px;
+}
+.table_route .cals_routing{
+	padding-right: 3px;
+}
+.table_route .cols span{
+	display:block;
+	text-align: right;
+	font-size: 10px;
+	color:#6d6e71;
+	margin-top: 4px;
+	margin-right: 4px;
+}
+
+.btn{
+	background: url('../img/button.png') no-repeat;
+	width: 89px;
+	height: 23px;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	text-align: left;
+	font-weight: normal;
+	padding: 3px 0 0 11px;
+}
+
+.footer-wrap{
+	padding-bottom: 12px;
+}
+.footer-wrap ul{
+	list-style:none;
+	margin-top:8px;
+}
+.footer-wrap ul li{
+	display:inline-block;
+	margin-right: 12px;
+	margin-left:0;
+}
+.footer-wrap ul li a{
+	font-size:11px;
+	color:#fff;
+	line-height: 18px;
+}
+.hr{
+	border-top: 2px solid #b8daf0;
+	margin:8px 0;
+}
+.hr.hr_gray{
+	border-top-color:#cdcdcd;
+}
+.footer-wrap p{
+	color:#fff;
+	font-size:10px;
+}
+.footer-wrap p a{
+	color:white;
+	font-weight: bold;
+}

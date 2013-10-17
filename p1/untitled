@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this meta tag, Half Life 3 will never be released. -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>GHM EDM TEST</title>
+
+<link rel="stylesheet" type="text/css" href="css/email.css" />
+
+</head>
+<body>
+
+<div class="wrapper">
+
+<!-- HEADER -->
+<table class="head-wrap">
+	<tr>
+		<td></td>
+		<td class="header container">
+			
+				<div class="content bg_content">
+					<table>
+					<tr>
+						<td></td>
+						<td><p class="email_info">The best flight offers, last-minute deals and others promotions from Garuda Indonesia Airways .... <br />
+Can’t view ? <a href="#">Click here</a> to view online</p></td>
+					</tr>
+				</table>
+				</div>
+				
+		</td>
+	</tr>
+</table><!-- /HEADER -->
+
+<!-- BODY -->
+<table class="body-wrap">
+	<tr>
+		<td class="container">
+
+			<div class="content bg_content">
+				<table>
+					<tr>
+						<td>
+							<div class="email_banner" style="background-image:url('img/email_banner.jpg');">
+								<ul>
+									<li><a href="#">Earn Miles</a></li>
+									<li><a href="#">Redeem Miles</a></li>
+									<li><a href="#">About GFF</a></li>
+									<li><a href="#">News & Offers</a></li>
+									<li><a href="#">Book Flight</a></li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+		</td>
+	</tr>
+	<tr>
+		<td class="container">
+
+			<div class="content bg_content content_email">
+
+				<div class="column-wrap body_email">
+					<div class="column col_left">
+						<table>
+							<tr>
+								<td>
+									<p>
+	Dear <b>(GFF Member's name)</b>,
+	<br /><br />
+	With Garuda Indonesia, your leisure or business travels become much more fun and rewarding. GFF Members can now earn twice as much mileage every time you fly with us to many favorite destinations!
+	<br /><br />
+	So what are you waiting for? <br />
+	Seize this opportunity for the following routes: <br /><br />
+
+									</p>
+
+									<table class="table_route">
+										<tr>
+											<td colspan="5" bgcolor="#0b7bbf"></td>
+										</tr>
+										<tr>
+											<td class="cols cols_name cols_from_name">Medan</td>
+											<td class="cols cols_route"><img src="img/flightroute.png" alt="route" /></td>
+											<td class="cols cols_name cols_to_route">Palembang <br /> <span>Economy & Executive</span></td>
+											<td class="cols cols_to_route cals_routing"><img src="img/route.png" alt="route" /></td>
+											<td class="cols">Until 30 June 2013</td>
+										</tr>
+										<tr>
+											<td class="cols cols_name cols_from_name">Jakarta</td>
+											<td class="cols cols_route"><img src="img/flightroute.png" alt="route" /></td>
+											<td class="cols cols_name cols_to_route">Palembang <br /> <span>Executive</span></td>
+											<td class="cols cols_to_route cals_routing"><img src="img/route.png" alt="route" /></td>
+											<td class="cols">Until 30 June 2013</td>
+										</tr>
+										<tr>
+											<td class="cols cols_name">Jakarta</td>
+											<td class="cols cols_route"><img src="img/flightroute.png" alt="route" /></td>
+											<td class="cols cols_name cols_to_route">Perth <br /> <span>Executive</span></td>
+											<td class="cols cols_to_route cals_routing"><img src="img/route.png" alt="route" /></td>
+											<td class="cols">Until 30 June 2013</td>
+										</tr>
+									</table>
+
+									<br />
+									<p>
+	Don't miss the opportunity! Book your flights soon through Garuda Indonesia Call Center at 0804 1807 807 or (021) 2351 9999, available 24 hours every day, or visit the nearest Garuda Indonesia Sales Office for reservation.
+<br /><br />
+
+Warm regards,<br /><br />
+
+<b>Customer Loyalty</b>
+
+<br /><br />
+
+<a href="#" class="btn">Read More</a>
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="column col_right">
+						<table>
+							<tr>
+								<td>
+									<h3>Your Account</h3>
+									<p>
+										GFF No. <span class="txt_blue">123 456 789</span>
+										<br /><br />
+										Status as of DD/MMY/YYY<br />
+										GFF Member Status 
+										<span class="txt_blue">XXXXXX</span><br />
+										Current Mileage :<br />
+										<span class="txt_blue">XXXXXX Miles</span>
+
+										<ul class="list_arrow">
+											<li><a href="#">Purchase Miles</a></li>
+											<li><a href="#">Spend Miles</a></li>
+											<li><a href="#">Claim Miles</a></li>
+										</ul>
+
+										<ul class="list_news">
+											<li><img src="img/news1.jpg" /><a href="#">Enjoy Your Stay in Swiss-Belhotel, Indonesia</a></li>
+											<li><img src="img/news2.jpg" /><a href="#">Redeem GFF Mileage with Travel Package</a></li>
+										</ul>
+
+										<a href="#"><img src="img/logogaruda.png" alt="logogaruda" /></a>
+
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="clear"></div>		
+
+					<div class="content bg_content content_bottom">
+						<div class="hr hr_gray"></div>
+
+						<p>For more information please visit: <a href="#">https://gff.garuda-indonesia.com/</a></p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</td>
+	</tr>
+</table>
+
+<!-- FOOTER -->
+<table class="footer-wrap">
+	<tr>
+		<td></td>
+		<td class="container">
+			
+			<!-- content -->
+			<div class="content content_nopadding">
+				<table>
+					<tr>
+						<td align="left">
+							<ul>
+								<li><a href="#">My Account</a></li>
+								<li><a href="#">Earn Miles</a></li>
+								<li><a href="#">Redeem Miles</a></li>
+								<li><a href="#">About GFF</a></li>
+								<li><a href="#">News & Offers</a></li>
+								<li><a href="#">Book Flight</a></li>
+							</ul>
+							<div class="clear"></div>	
+							<div class="hr"></div>
+							<p>Please do not reply to this email. The originating email account is automated and not monitored. To unsubscribe, <a href="#">click here</a> <br />
+							2013 Garuda indonesia Airways. All Right reserved. Review our privacy policy
+							</p>
+						</td>
+					</tr>
+				</table>
+			</div><!-- /content -->
+				
+		</td>
+		<td></td>
+	</tr>
+</table><!-- /FOOTER -->
+
+</div>
+
+</body>
+
+</html>
